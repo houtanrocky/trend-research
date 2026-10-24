@@ -316,6 +316,8 @@ Full matrix and sensitivity analysis: `docs/topic-scorecard.md`.
 | `docs/topic-scorecard.md` | Full scoring matrix and sensitivity analysis |
 | `docs/t1-research-plan.md` | Detailed T1 plan: hypotheses, metrics, risks |
 | `docs/alternatives.md` | Deeper notes on T2-T10 |
+| `docs/tmu-research.md` | Tarbiat Modares University (ISE) institutional fit note — evidence, faculty map, verdict |
+| `data/ise/` | Raw scraped TMU ISE pages (departments, research areas, faculty) backing the note |
 | `data/profile-snapshot.json` | Raw GitHub profile snapshot used |
 | `data/repos-snapshot.tsv` | Repo inventory (name, language, stars, pushed, description) |
 
