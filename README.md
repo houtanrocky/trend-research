@@ -1,325 +1,209 @@
-# Trend Research — Research Topic Evaluation for Houtan Rocky
+# Trend Research — How to Find the Best Research Trend (and the Answer for Houtan Rocky)
 
 **Prepared:** 2026-10-24
 **Subject:** Houtan Abasi Rocky ([houtanrocky.com](https://houtanrocky.com), [github.com/houtanrocky](https://github.com/houtanrocky))
-**Question:** Which research topics are the best fit and highest-value direction for this researcher?
+**Question:** Which research trend is the best fit and highest-value direction, and how do we decide?
 
 ---
 
-## TL;DR — The Recommendation
+## 0. TL;DR — the answer in six lines
 
-**Primary track: "Invariant-Preserving Coding Agents" (AI-assisted software engineering on stateful backends).**
-
-You have already started exactly the right thing — `agent-invariant-preservation` — and it sits at the intersection of your three rarest, hardest-to-copy assets:
-
-1. **Deep, hands-on concurrency/transaction engineering** (Dragon Market: Go + PostgreSQL + wallets + auctions + idempotency + Testcontainers).
-2. **A finished, credible empirical-research methodology** (metro-premium: source audits, explicit uncertainty gates, reproducible pipelines, bilingual publication).
-3. **A real MSc-level research framing** (theory, experimental design, falsifiable hypothesis, pre-registered metrics).
-
-Almost nobody in the AI-coding-agent literature has your combination of *production-grade transactional systems* and *research discipline*. That is your unfair advantage. **Commit to it.**
-
-**Secondary track (portfolio hedge): "Computational Urban Economics / Geo-Spatial Data Science for Iran."** Keep `metro-premium` alive — it is publishable, distinctive, and locally defensible. But do not let it become the main track; it competes in a crowded global field and lacks the compounding professional leverage of track 1.
-
-**Do not pursue:** generic LLM app-building, generic Web3/dApp research, Chrome-extension tooling research, or framework/tutorial repos. These have no research ceiling and no differentiated audience.
+1. **Method first.** A "best trend" is not the hottest topic — it is the trend where *fit × moat × compounding leverage* is highest. Section 1 gives the repeatable method.
+2. **Winner:** **T1 — Invariant-Preserving Coding Agents on Stateful Backends** (weighted **4.90 / 5**, first under every re-weighting tested).
+3. **Hedge:** **T2 — Tehran housing × metro accessibility** (3.55). One descriptive paper, then stop.
+4. **Absorb, don't split:** T10 (harness) and T8 (verification) are artifacts *inside* T1; T3 (guardrails) is a later product spin-off.
+5. **Institutional anchor:** TMU ISE = strong for T2 (composite 4.5), secondary methodological co-supervision for T1 (3.2).
+6. **The one-line identity:** *"I study whether AI coding agents can be trusted with money."*
 
 ---
 
-## 1. Profile Analysis (evidence-based)
+## 1. Method — how to find the best trend (reusable)
 
-### 1.1 Who you are, from your own materials
+Use this whenever a new candidate trend appears. It is deliberately boring; the boring-ness is what stops trend-chasing.
 
-| Signal | Evidence | What it tells us |
-|---|---|---|
-| 8+ years shipping systems | Site "At a glance": 8+ years, 11 selected projects, 5 tools shipped | Operator-engineer, not a first-time researcher. You can build real systems. |
-| Fintech at organizational scale | **Nafisagold** — gold-credit platform for Bime Salamat, **4,400 personnel**, async credit engine, e-sign, Pasargad PSP; Technical Team Lead; NestJS / React / RabbitMQ / Redis / PostgreSQL | You have shipped *money-moving, stateful, auditable* systems under real constraints. Single most valuable domain asset. |
-| Backend systems depth | **Dragon Market** — Go, PostgreSQL transactions, auctions, wallet reservations, idempotent payments, Docker, Testcontainers, 17 GitHub topics | You know exactly where the bugs are: races, double-selling, idempotency, rollback semantics. |
-| Web3 / real-time | **Hidden Bitcoin/Crypto Hunt** — React-Vite, Go, gRPC-Web, Three.js, Subsquid/TheGraph; **uniswap-widget** (3 stars); **TON-Testnet-Transaction-App** | Real Web3 work, but as a *developer*, not a protocol researcher. |
-| AI product work | **Breeze.ai** (AI gaming image editing, React/Firebase); **Commerceflow.ai** (image to marketing text) | You integrated AI as a product feature. Strong on AI *engineering*, thin on AI *science*. |
-| AI research (nascent) | **agent-invariant-preservation** — "Preserving Transactional Invariants in AI-Assisted Software Development"; MSc foundation; 8x2x2x3 = 96-run ceiling; Dragon Market as subject; operational pin f4ba211… | **A real research program already in motion**, with proposal, design, reading list, benchmark packages, target baseline. |
-| Research discipline | **metro-premium** — 1,000,000-row source audit, 84,586 Tehran listings filtered to 3,110 candidates, 555,686-node OSM graph, 166 entrances / 2,978 routes, explicit "no operational premium established", bilingual EN/FA publication | You already know how to run a *defensible* empirical study and refuse to overclaim. Rare, and exactly what agent-evaluation lacks. |
-| Open-source reach | 93 public repos (68 originals, 25 forks), 8 gists, 90 followers. Top: Terminal Copy On Select (5 stars), Iranian Banks React Icons (4), Uniswap Widget (3) | Your OSS is *tooling*: useful, but small-scale. Research repos compound better. |
-| Breadth, not focus | Go, TypeScript, Python, JS, Svelte, Vue, PHP, Lua, SCSS, Jupyter; ~20 domains | Strength as a builder, weakness as a researcher. Research rewards narrow depth. |
-| Stated identity | Bio: "Development / Design / Strategy — Sweat and grit, not wishful thinking"; site: "Independent engineer for ambitious products"; Tehran, Iran | You want to be an independent authority, not a cog. Research is the vehicle. |
+### 1.1 Inventory the assets you already have
+List what is **already built or half-built**, with evidence (repos, commits, datasets, shipped products). Trends that *reuse* these assets beat trends that require new ones. Assets for this profile are in `docs/profile-analysis.md`.
 
-### 1.2 The strategic read
-
-You are at a **rare inflection point**: senior-level systems credentials, a functioning research apparatus, and *two* live research repos. The bottleneck is not capability — it is **commitment and focus**. Your history shows parallel bets (Web3 widget, games, a taxi app, Chrome extensions, a geo study, an agent study) with no single line compounding for more than a few weeks.
-
-**Research only pays if it compounds.** One finished, cited, well-defended study beats ten started repos. The evaluation below ranks on *compounding leverage*, not novelty alone.
-
----
-
-## 2. Evaluation Framework
-
-Each candidate topic is scored 1-5 on seven criteria; weighted total = sum(score x weight).
-
-| Criterion | Weight | Why it matters |
+### 1.2 Score every candidate on seven criteria
+| Criterion | Weight | The question it answers |
 |---|---:|---|
-| Fit with proven skills | 20% | Can you execute without a six-month detour into a new field? |
+| Fit with proven skills | 20% | Can I execute without a six-month detour? |
 | Unfair advantage / moat | 20% | Could a typical researcher do this at all, let alone as well? |
 | Research ceiling | 15% | Can it yield a paper, thesis, benchmark, or artifact others cite? |
-| Practical leverage | 15% | Does it convert into jobs, consulting, speaking, or products? |
+| Practical leverage | 15% | Does it convert into jobs, consulting, speaking, products? |
 | Feasibility in 4-6 months | 15% | Solo, self-funded, no lab? |
 | Novelty / white space | 10% | Is it underexplored *right now*? |
-| Personal momentum | 5% | Have you already started and stayed interested? |
+| Personal momentum | 5% | Have I already started and stayed interested? |
+
+Scores 1–5; weighted total = Σ(score × weight). Full matrix: `docs/topic-scorecard.md`.
+
+### 1.3 Stress-test the ranking (sensitivity)
+Re-weight the model at least three ways (double novelty, double leverage, cut moat) and check whether the winner survives. If the winner changes with weights, the trend is not robust — pick the one that wins under *all* plausible weightings.
+
+### 1.4 Apply hard filters (disqualifiers)
+Reject any trend that fails these regardless of score:
+- needs a lab, GPU cluster, or funding you do not have;
+- needs human subjects / IRB-scale recruitment;
+- needs capital-market or US-only data agreements (sanctions/geography);
+- needs novel ML theory you cannot supply;
+- has no falsifiable question (i.e. it is product work wearing a research costume).
+
+### 1.5 Classify the survivors — one primary, one hedge, the rest absorbed
+- **Primary:** highest weighted score, must be the *identity*.
+- **Hedge:** second, publishable, low-intensity, must not compete for daily attention.
+- **Absorbed:** sub-topics that are instruments/artifacts of the primary.
+- **Skip:** everything else, explicitly and on the record.
+
+### 1.6 Write the falsifiable question and the done-criteria *before* starting
+No trend is "chosen" until it has (a) a research question, (b) a null hypothesis, (c) acceptance criteria for "done", (d) a pre-registration. See `docs/t1-research-plan.md`.
+
+### 1.7 Re-run the method on a schedule, not on impulse
+Re-evaluate quarterly or when a track stalls — never because a new topic looks exciting mid-project. The failure mode this project guards against is dispersion: see §7.
 
 ---
 
-## 3. Candidate Topics — Scored
-
-### T1. Invariant-Preserving Coding Agents on Stateful Backends — RECOMMENDED PRIMARY
-
-> *How reliably can LLM coding agents modify transactional backend systems without breaking invariants (no double-spend, no lost update, idempotency preserved, rollback correct)? Does invariant-oriented prompting or verification improve correctness?*
-
-| Criterion | Score | Rationale |
-|---|---:|---|
-| Skill fit | 5 | You built Dragon Market exactly for this. |
-| Moat | 5 | Few AI-SE researchers can build a concurrency-correct Go/Postgres target plus a real benchmark harness. |
-| Research ceiling | 5 | Benchmarks get cited; "invariant preservation" is a named, unsolved problem. |
-| Practical leverage | 5 | Directly sellable: AI code review, agent guardrails, enterprise AI adoption. |
-| Feasibility | 4 | 96-run ceiling is heavy; must be cut to a pilot. |
-| Novelty | 5 | Agent evaluation on *stateful* systems is nascent; most benchmarks are stateless, SWE-bench-like. |
-| Momentum | 5 | Repo, design, packages and pin already exist. |
-| **Weighted** | **4.90** | Clear winner. |
-
-**Concrete framing:** *"SWE-bench measures whether tests pass. It does not measure whether money is conserved."* Your contribution is a benchmark plus protocol for **transactional invariant preservation** under agent edits, with injectable faulty variants and human-approved baselines.
-
-**Risks:** (a) LLM API cost and variance for 2 systems x 2 conditions; (b) reviewer skepticism of small n; (c) scope creep.
-**Mitigations:** pilot at 2 tasks x 2 systems x 1 condition x 3 reps = 12 runs; pre-register; publish the harness as an open artifact even if results are null.
-
----
-
-### T2. Geo-Spatial Housing and Accessibility Analysis (metro-premium line) — SECONDARY
-
-> *Network-based analysis of Tehran asking prices vs. metro walking access, with explicit uncertainty and privacy gates.*
-
-| Criterion | Score | Rationale |
-|---|---:|---|
-| Skill fit | 4 | Python pipeline plus React publication — already proven. |
-| Moat | 3 | Urban economists do this routinely; your moat is local data access and honest uncertainty handling, not method. |
-| Research ceiling | 4 | Publishable in applied geo/urban venues; bilingual EN/FA is a differentiator. |
-| Practical leverage | 3 | Consulting for Iranian real estate or policy; limited global hiring signal. |
-| Feasibility | 4 | Pipeline exists; remaining work is topology and entrance validation. |
-| Novelty | 3 | Metro-premium studies are well trodden globally; Iran-specific is thinner but small. |
-| Momentum | 4 | Active and well documented. |
-| **Weighted** | **3.55** | Strong hedge, not the main bet. |
-
-**Concrete framing:** finish the *defensible descriptive* paper ("what can and cannot be claimed from public listing data"), then stop. Do not chase causal identification.
-
----
-
-### T3. AI Agent Guardrails and Runtime Policy Enforcement for Money Movement
-
-> *Can a runtime policy layer (Kill Switch generalized) provably constrain what an autonomous agent may do to a financial system?*
-
-| Criterion | Score | Rationale |
-|---|---:|---|
-| Skill fit | 4 | Kill Switch, fintech, agent work. |
-| Moat | 4 | Very few people build *enforcement* rather than *evaluation*. |
-| Research ceiling | 3 | Strong engineering paper or artifact; less of a scientific result. |
-| Practical leverage | 5 | Highest commercial value of all topics; agent safety for fintech is a live budget line. |
-| Feasibility | 4 | Prototype in weeks. |
-| Novelty | 4 | Agent safety is hot; *enforcement on transactional APIs* is thinner. |
-| Momentum | 3 | Adjacent, not started. |
-| **Weighted** | **3.90** | Excellent *product* bet; weaker as first *research* bet. Spin-off from T1. |
-
----
-
-### T4. LLM-Based Evaluation of Open-Source Repository Quality and Maintainability
-
-| Criterion | Score | Rationale |
-|---|---:|---|
-| Skill fit | 4 | You have built and reviewed many repos. |
-| Moat | 2 | Extremely crowded (CodeRabbit, Snyk, Sonar, academic metric papers). |
-| Research ceiling | 3 | Metric-validation papers are publishable but low prestige. |
-| Practical leverage | 4 | SaaS-able. |
-| Feasibility | 4 | Doable. |
-| Novelty | 2 | Saturated. |
-| Momentum | 1 | Not started. |
-| **Weighted** | **3.00** | Commodity; you would be one of a thousand. Skip. |
-
----
-
-### T5. Web3 Protocol and DeFi Mechanism Research
-
-| Criterion | Score | Rationale |
-|---|---:|---|
-| Skill fit | 3 | A Uniswap widget is integration, not mechanism design. |
-| Moat | 2 | Protocol researchers are deep specialists (game theory, cryptography). |
-| Research ceiling | 4 | High prestige, but requires math/crypto foundations you would have to build. |
-| Practical leverage | 2 | Volatile market; sanctions friction for global roles. |
-| Feasibility | 2 | High barrier; data access and capital for experiments. |
-| Novelty | 3 | Crowded. |
-| Momentum | 1 | Dormant. |
-| **Weighted** | **2.55** | Wrong battlefield. |
-
----
-
-### T6. Developer Tooling and Browser-Extension UX Research
-
-| Criterion | Score | Rationale |
-|---|---:|---|
-| Skill fit | 5 | You ship these. |
-| Moat | 2 | Trivial to replicate. |
-| Research ceiling | 2 | Not a research field; at best a blog post or n=10 HCI workshop. |
-| Practical leverage | 2 | Low. |
-| Feasibility | 5 | Easy. |
-| Novelty | 1 | None. |
-| Momentum | 3 | Several live repos. |
-| **Weighted** | **2.70** | Build them as *products*, not as *research*. |
-
----
-
-### T7. LLM-Assisted Education and Localized Learning Tools (Persian)
-
-| Criterion | Score | Rationale |
-|---|---:|---|
-| Skill fit | 4 | Udemy helper repos; teaching instinct. |
-| Moat | 3 | Persian-language market is underserved. |
-| Research ceiling | 3 | LAK/AIED venues exist but require education theory. |
-| Practical leverage | 4 | Real market in Iran; monetizable. |
-| Feasibility | 4 | Feasible. |
-| Novelty | 3 | Moderate. |
-| Momentum | 2 | Adjacent repos only. |
-| **Weighted** | **3.45** | Good *business*, mediocre *research*. Product line, not thesis. |
-
----
-
-### T8. Reliability Engineering for AI-Generated Code (Static and Semantic Verification)
-
-| Criterion | Score | Rationale |
-|---|---:|---|
-| Skill fit | 4 | Dragon Market's Testcontainers and transaction tests are exactly this. |
-| Moat | 4 | Combines concurrency with verification. |
-| Research ceiling | 4 | Verifiable standalone or as part of T1. |
-| Practical leverage | 5 | CI vendors would pay. |
-| Feasibility | 4 | Buildable incrementally. |
-| Novelty | 4 | "Agent plus property-based testing on DB transactions" is thin. |
-| Momentum | 3 | Implied by the T1 harness. |
-| **Weighted** | **3.95** | **Best sub-topic to fold into T1** — it is the *mechanism* T1 evaluates. |
-
----
-
-### T9. Distributed Systems Pedagogy and Reference Architectures (Dragon-Market-as-textbook)
-
-| Criterion | Score | Rationale |
-|---|---:|---|
-| Skill fit | 5 | Already the artifact. |
-| Moat | 4 | Explanations plus working code is a rare pairing. |
-| Research ceiling | 2 | Not research; education and advocacy. |
-| Practical leverage | 4 | Reputation, talks, courses, hiring. |
-| Feasibility | 5 | Nearly done. |
-| Novelty | 2 | Many such references exist, fewer with Testcontainers plus idempotency focus. |
-| Momentum | 4 | Active. |
-| **Weighted** | **3.60** | High-ROI *supporting* activity, not a research track. |
-
----
-
-### T10. AI Coding Agent Benchmark Infrastructure (harness/runner as an open standard)
-
-| Criterion | Score | Rationale |
-|---|---:|---|
-| Skill fit | 5 | Already partly built. |
-| Moat | 4 | Early mover. |
-| Research ceiling | 3 | Infrastructure papers get cited; not the headline result. |
-| Practical leverage | 5 | Standards equal authority. |
-| Feasibility | 4 | Incremental. |
-| Novelty | 4 | Very few stateful-agent harnesses. |
-| Momentum | 5 | Exists. |
-| **Weighted** | **4.35** | **Fold into T1 as its artifact contribution.** |
-
----
-
-## 4. Ranking Summary
+## 2. Applied result — the ranked answer
 
 | Rank | Topic | Weighted | Verdict |
 |---:|---|---:|---|
-| 1 | **T1 Invariant-Preserving Coding Agents** | **4.90** | **Primary track — commit.** |
-| 2 | T10 Benchmark harness as artifact | 4.35 | Fold into T1. |
-| 3 | T8 Verification and property tests for agent code | 3.95 | Fold into T1. |
-| 4 | T3 Agent guardrails for money movement | 3.90 | Spin-off / product. |
-| 5 | T9 Dragon Market as reference architecture | 3.60 | Supporting activity. |
-| 6 | T2 Metro and housing geo research | 3.55 | Secondary hedge. |
-| 7 | T7 Persian LLM education tools | 3.45 | Product idea, not thesis. |
-| 8 | T4 LLM repo-quality evaluation | 3.00 | Skip. |
-| 9 | T6 Dev tooling UX research | 2.70 | Build as product only. |
-| 10 | T5 Web3 mechanism research | 2.55 | Skip. |
+| 1 | **T1 Invariant-preserving coding agents** | **4.90** | **Primary track — commit.** |
+| 2 | T10 Benchmark harness as open standard | 4.35 | Fold into T1 as its artifact. |
+| 3 | T8 Verification / property tests for agent code | 3.95 | Fold into T1 as its instrument. |
+| 4 | T3 Runtime guardrails for money movement | 3.90 | Spin-off / product after T1. |
+| 5 | T9 Dragon Market as reference architecture | 3.60 | Supporting activity (talks, pedagogy). |
+| 6 | T2 Tehran housing × metro accessibility | 3.55 | **Secondary hedge** — one paper. |
+| 7 | T7 Persian-language LLM education | 3.45 | Product idea, not a thesis. |
+| 8 | T4 LLM repo-quality evaluation | 3.00 | Skip (commodity). |
+| 9 | T6 Dev tooling / extension UX research | 2.70 | Build as product only. |
+| 10 | T5 Web3 mechanism research | 2.55 | Skip (wrong battlefield). |
 
-Full matrix and sensitivity analysis: `docs/topic-scorecard.md`.
+**Sensitivity verdict:** T1 stays first when novelty is doubled (4.83), when leverage is doubled (4.95), and when moat is cut to 5% (4.45). The ranking is robust, not an artifact of the weights.
 
----
-
-## 5. Why T1 Is the Right Bet (the argument in one page)
-
-1. **You are one of very few people who can build the target system correctly.** Most agent-evaluation papers use toy repos or stateless tasks. Dragon Market has real transactional invariants: wallet balances, auction close, idempotent payment, reservation expiry. Building a *fault-injectable* version of that is itself a contribution.
-2. **The research question is crisp and falsifiable.** H0: invariant-oriented guidance does not change the rate of invariant violations. H1: it reduces violations without reducing task completion. Both are measurable.
-3. **The artifact outlives the result.** Even a null result yields a benchmark and harness the community can use — with your name on it.
-4. **It converts directly into money.** "I build guardrails and evaluations for AI agents touching financial systems" is a premium consulting and hiring position in 2026-2027.
-5. **It compounds with everything else you have.** Fintech (Nafisagold), Go/Postgres (Dragon Market), research method (metro-premium), agent tooling (Kill Switch, researchctl) — all four feed T1. No other topic uses all four.
-6. **It is defensible against bigger labs.** Labs have GPUs and model access; they do not have your production-transaction intuition or your willingness to build careful, boring, correct benchmarks.
-
-**The one-line identity to own:**
-> *"I study whether AI coding agents can be trusted with money."*
+**Per-topic rationales:** T1–T10 detail in §3 below; deeper notes on T2–T10 in `docs/alternatives.md`.
 
 ---
 
-## 6. Recommended 6-Month Plan (T1)
+## 3. Why T1 wins (the argument in one page)
 
-**Phase 0 — Scope cut (weeks 1-2)**
-- Freeze the design at **pilot scale**: 3 tasks x 2 agent systems x 2 conditions x 3 reps = 36 runs. Declare the 96-run design the *ceiling*, not the target.
-- Publish a pre-registration document (hypothesis, metrics, exclusion rules, analysis plan) before running anything.
+1. **You can build the target system correctly.** Most agent-evaluation work uses toy or stateless repos. Dragon Market has real invariants — wallet balances, auction close, idempotent payment, reservation expiry — and you wrote it.
+2. **The question is crisp and falsifiable.** H0: invariant-oriented guidance does not change the violation rate. H1: it reduces violations without materially reducing task completion.
+3. **The artifact outlives the result.** Even a null result leaves a benchmark and harness others can cite and reuse.
+4. **It converts into money.** "I build evaluations and guardrails for AI agents touching financial systems" is a premium position in 2026–2027.
+5. **It compounds with everything you already have.** Fintech (Nafisagold), Go/Postgres concurrency (Dragon Market), research method (metro-premium), agent tooling (`researchctl`, Kill Switch) — all four feed T1. No other topic uses all four.
+6. **It is defensible against bigger labs.** Labs have GPUs and model access; they do not have your production-transaction intuition or your patience for careful, boring benchmarks.
 
-**Phase 1 — Benchmark hardening (weeks 3-6)**
-- Finalize T001 (purchase retries); add T002 (auction close race) and T003 (wallet reservation expiry).
-- Each package: reference solution, independent state checks, at least one **rejected faulty variant** (already your pattern).
-- Human baseline approval: get one independent reviewer to sign the baseline. This is the credibility gate.
+**The concrete framing:** *"SWE-bench measures whether tests pass. It does not measure whether money is conserved."*
 
-**Phase 2 — Harness and metrics (weeks 5-8)**
-- Define an invariant violation taxonomy: double-spend, lost update, phantom reservation, non-idempotent retry, rollback inconsistency.
-- Instrument `researchctl` to record traces, diffs, and per-run manifests (SHA-256), as it already does.
-- Freeze harness version and pin the target commit.
+---
 
-**Phase 3 — Pilot runs (weeks 9-12)**
-- Run 36 executions. Record cost, latency, and variance.
-- Report violation rate per condition, task completion, and qualitative failure modes.
+## 4. The hedge — T2, and why it stays second
 
-**Phase 4 — Write-up (weeks 13-20)**
-- Technical report or arXiv preprint: *"Do Coding Agents Preserve Transactional Invariants? A Pilot Benchmark."*
-- Open-source the harness and benchmark packages.
-- One workshop or conference submission (AI-SE workshop, ICSE/FSE workshop track, or NeurIPS Datasets and Benchmarks if scope justifies it).
+`metro-premium` is real, documented, and near-publishable: a 1M-row source audit, 84,586 Tehran listings, a 555,686-node OSM walking graph, a bilingual EN/FA publication, and an honest headline association of **−9.87% per km** with a clustered interval of **−22.85% to +5.28%** and an explicit refusal to claim causality.
 
-**Phase 5 — Leverage (weeks 20-24)**
-- Blog series on houtanrocky.com.
-- Talk or podcast.
-- Turn T3 (guardrails) into a product prototype using the findings.
+It loses on **moat** (urban economics is mature; the method is replicable) and **leverage** (locally valuable, weak global hiring signal), and it will not produce a benchmark. Keep it to **one descriptive paper**, then stop. It is the institutional strong suit for TMU (see §6).
 
-**Acceptance criteria for "done":** a public preprint, a public harness, three approved task packages, and a reproducible pilot report. Nothing less counts.
+---
+
+## 5. Absorbed and skipped topics
+
+- **T10 harness → artifact of T1.** `researchctl` with provenance, SHA-256 manifests, pinned commits. Give it its own README, version, and citation block.
+- **T8 verification → instrument of T1.** Independent state checks, rejected faulty variants, violation taxonomy.
+- **T3 guardrails → later product.** Enforcement without measurement is unfounded; T1's taxonomy is T3's policy spec.
+- **T9 pedagogy → supporting activity.** Dragon Market explainers double as T1's motivation section; do not let them displace research time.
+- **Skip:** T4 (commodity), T5 (needs crypto/mechanism-design depth you do not have), T6 as *research* (ship as product), T7 as *research* (business, not thesis).
+
+---
+
+## 6. Institutional anchor — TMU ISE (faculty research results)
+
+Tarbiat Modares University is the intended home institution. Full note: `docs/tmu-research.md`; raw public pages in `data/ise/` (scraped 2026-10-24 from `ise.modares.ac.ir`, no authenticated pages).
+
+### 6.1 Verdict
+
+**Credible, locally strong anchor — weak direct fit for T1, moderate fit for T2.**
+
+| Anchor role | Composite | Reading |
+|---|---:|---|
+| T2 (geo/urban data science) | **4.5** | Strong: Socio-economic Systems covers transport planning and regional system design. |
+| T1 (invariant-preserving agents) | 3.2 | Secondary: methodology/reliability co-supervision only; no coding-agent subject expertise on the register. |
+
+**Strategy:** T2 → TMU as primary institutional home. T1 → TMU as methodological co-supervisor, with subject expertise sourced externally. Highest-value open gap: check TMU's **Computer Engineering** faculty, which is not covered by the ISE scrape.
+
+### 6.2 Faculty of Industrial & Systems Engineering — structure
+
+Five departments: Industrial Engineering; IT Engineering; Socio-economic Systems; Systems & Productivity Management; Innovation, Entrepreneurship & Learning Systems. Central Campus; `Ise@modares.ac.ir`.
+
+Department managers: **Seyed Hessam-od-Din Zegordi** (Industrial Eng.), **Gholamali Montazer** (IT Eng.), **Majid Sheikh Mohammadi** (Socio-economic Systems), **Bakhtiar Ostadi** (Systems & Productivity Mgmt), **Mohammad Mehdi Sepehri** (Innovation, Entrepreneurship & Learning).
+
+### 6.3 Research-area map (aggregated from the public register)
+
+| Theme cluster | Weight | Representative faculty |
+|---|---|---|
+| Risk, reliability, resilience, quality | **Very high** (largest) | Bakhtiar Ostadi (~40+ entries), Reza Baradaran Kazemzadeh |
+| Financial engineering, banking, portfolio & VaR | **High** | Parastoo Mohammadi, Hamid Banaeian, Mohammad Ali Rastegar, Firouzeh Mokhatab Rafiei |
+| Supply chain, logistics, scheduling | **High** | Nasim Nahavandi, Seyed Kamal Chaharsoughi, Zegordi, Ehsan Nikbakhsh |
+| Decision analysis, MCDM, optimization | **High** | Ali Hosseinzadeh Kashan, Majid Sheikh Mohammadi, Ehsan Nikbakhsh |
+| Data science / ML / NLP / CV / generative AI | **Moderate, growing** | Toktam Khatibi (LLMs, CV, medical imaging), Amir Albadvi (big data), Babak Teimourpour (recommender systems), Elham Akhoundzadeh (data mining) |
+| Health systems engineering, e-health, IoT | **Moderate** | Mohammad Mehdi Sepehri, Mehrdad Kargari, Toktam Khatibi |
+| Innovation, entrepreneurship, e-learning | **Moderate** | Amir Albadvi, Elham Akbari, Gholamali Montazer |
+| Industry 4.0, blockchain, cybersecurity intelligence | **Emerging** | Bakhtiar Ostadi, Motahareh Dehghan |
+
+### 6.4 The decisive finding
+
+- **For T1:** searching the whole register for *software engineering, coding agents, program verification, code generation, agent reliability* returns **nothing**. AI-adjacent work is applied ML (NLP, CV, generative models, recommender systems), not AI-assisted software engineering. TMU ISE cannot supervise T1's core question on subject grounds — only its instrumentation (reliability engineering, experimental design, statistical validation).
+- **For T2:** Socio-economic Systems explicitly lists transport planning, AI/ANN forecasting, and urban/regional system design — a direct match to the metro-premium pipeline.
+
+### 6.5 Outreach shortlist
+
+- **T2:** Majid Sheikh Mohammadi, Nasim Nahavandi, Ehsan Nikbakhsh, Ali Hosseinzadeh Kashan.
+- **T1 instrumentation:** Bakhtiar Ostadi (reliability/risk), Toktam Khatibi or Babak Teimourpour (data science/validation).
+
+### 6.6 Caveats
+
+Scraped snapshot only; ranks and managers drift, and a register entry is not proof of active funded work. Publication-level checks are required before any commitment. Faculty profile pages follow `pro.modares.ac.ir/pro/academic_staff/<slug>`.
 
 ---
 
 ## 7. Guardrails (what to stop doing)
 
-- **Stop starting new repos** until T1 has a preprint. Your repo count is already a distraction signal.
+- **Stop starting new repos** until T1 has a preprint; repo count is already a dispersion signal.
 - **Do not expand metro-premium** beyond one descriptive paper.
-- **Do not chase Web3 research**; keep the widget as a portfolio piece.
-- **Do not turn T1 into a product** before the pilot report exists — evaluation first, guardrail product second.
-- **Cap context-switching**: one primary track, one hedge, tools only as needed.
+- **Do not chase Web3 research**; keep the widget as portfolio only.
+- **Do not productise T1** before the pilot report — evaluation first, guardrail product second.
+- **Cap context-switching:** one primary track, one hedge, tools only as needed.
+- **Re-run §1 on a schedule**, not whenever a shiny topic appears.
 
 ---
 
-## 8. Files in this repo
+## 8. Next actions (ordered)
+
+1. Publish the T1 pre-registration (hypotheses, metrics, exclusion rules, analysis plan) — before any run.
+2. Harden T001; author T002 (auction close race) and T003 (wallet reservation expiry) with rejected faulty variants.
+3. Get one independent reviewer to sign the human baseline — this is the credibility gate.
+4. Freeze harness version; pin the Dragon Market commit (`f4ba211…`).
+5. Run the 36-run pilot (3 tasks × 2 systems × 2 conditions × 3 reps); the 96-run design is the ceiling, not the target.
+6. Write and publish the pilot report + harness release + preprint.
+7. Then, and only then, scope the T3 guardrail prototype.
+
+Acceptance for "done": public preprint, public harness, three approved task packages, reproducible pilot report. Nothing less counts.
+
+---
+
+## 9. Files in this repo
 
 | File | Contents |
 |---|---|
-| `README.md` | This evaluation (primary deliverable) |
-| `docs/profile-analysis.md` | Extended evidence table and source notes |
-| `docs/topic-scorecard.md` | Full scoring matrix and sensitivity analysis |
-| `docs/t1-research-plan.md` | Detailed T1 plan: hypotheses, metrics, risks |
-| `docs/alternatives.md` | Deeper notes on T2-T10 |
-| `docs/tmu-research.md` | Tarbiat Modares University (ISE) institutional fit note — evidence, faculty map, verdict |
-| `data/ise/` | Raw scraped TMU ISE pages (departments, research areas, faculty) backing the note |
-| `data/profile-snapshot.json` | Raw GitHub profile snapshot used |
+| `README.md` | This document: the trend-finding method, the ranked answer, and next actions |
+| `docs/profile-analysis.md` | Extended evidence table, capability matrix, constraint list, source notes |
+| `docs/topic-scorecard.md` | Full scoring matrix, sensitivity analysis, pairwise comparisons |
+| `docs/t1-research-plan.md` | Detailed T1 plan: RQs, hypotheses, tasks, threats to validity, timeline, budget |
+| `docs/alternatives.md` | Deeper notes and verdicts on T2–T10 |
+| `docs/tmu-research.md` | TMU ISE institutional fit: departments, research-areas map, faculty roster, verdict |
+| `data/ise/` | Raw public TMU ISE pages backing the institutional note |
+| `data/profile-snapshot.json` | Raw GitHub profile snapshot |
 | `data/repos-snapshot.tsv` | Repo inventory (name, language, stars, pushed, description) |
+| `data/site-notes.md` | Notes from the personal-site extraction |
+| `DSH-PRO/` | Tooling incident records (process artefacts, not research content) |
 
 ---
 
