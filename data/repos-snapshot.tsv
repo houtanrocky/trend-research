@@ -1,0 +1,94 @@
+﻿name`tlanguage`tstars`tfork`tpushed_at`tdescription
+the-musketeers`tJavaScript`t0`tFalse`t2026-10-23T22:25:41Z`t
+metro-premium`tPython`t0`tFalse`t2026-10-23T07:48:55Z`tOpen research on Tehran housing asking prices and metro walking access. Bilingual English/Persian publication with explicit uncertainty and privacy gates.
+dragon-market`tGo`t2`tFalse`t2026-10-21T17:21:18Z`tGo marketplace backend example with PostgreSQL transactions, REST API, auctions, wallets, idempotency, Docker, and Testcontainers.
+vscode-extension-terminalcopyonselect`tJavaScript`t5`tFalse`t2026-10-18T19:29:41Z`tAutomatically copy selected text from the VS Code integrated terminal. Native clipboard behavior, your settings respected, no telemetry. Free and open source.
+discord-chat-exporter-chrome-extension`tJavaScript`t0`tFalse`t2026-10-18T00:25:14Z`t
+agent-invariant-preservation`tPython`t0`tFalse`t2026-10-17T22:57:19Z`t
+chrome-extension-session-switcher`tTypeScript`t1`tFalse`t2026-10-17T19:32:44Z`t
+killswitchextension`tTypeScript`t2`tFalse`t2026-10-16T06:33:09Z`t
+taxio`tTypeScript`t0`tFalse`t2026-10-09T12:20:36Z`t
+houtanrocky`t`t3`tFalse`t2026-10-02T01:47:31Z`t
+cardtoshaba`tGo`t0`tFalse`t2026-09-22T03:34:40Z`t
+uniswap-widget`tTypeScript`t3`tFalse`t2026-09-21T05:42:45Z`tEmbeddable Uniswap swap widget - framework-agnostic core with React & Vue bindings. No token limits, no warnings, no added fee.
+iranian-banks-react-icons`tTypeScript`t4`tFalse`t2026-08-19T05:54:27Z`t
+neodrag`tTypeScript`t1`tTrue`t2026-07-02T06:39:21Z`tOne Draggable to rule them all ðŸ’
+aima-python`tJupyter Notebook`t1`tTrue`t2026-06-25T23:45:18Z`tPython implementation of algorithms from Russell And Norvig's "Artificial Intelligence - A Modern Approach"
+vscode-settings`t`t1`tTrue`t2026-06-17T09:17:07Z`tMy VS Code settings and extensions 
+i18n`t`t1`tTrue`t2026-06-15T21:34:50Z`tI18n module for Nuxt
+npmx.dev`tTypeScript`t1`tTrue`t2026-06-15T15:02:16Z`ta fast, modern browser for the npm registry
+npmx-utils`tJavaScript`t1`tFalse`t2026-06-14T07:55:06Z`tUtilities for npmx.dev
+timer-gamified`tSvelte`t1`tFalse`t2025-11-21T18:32:52Z`t
+timer-gamified-privacy-policy`t`t0`tFalse`t2025-11-21T18:19:34Z`t
+chrome-extenstion-udemy-helper`tJavaScript`t3`tFalse`t2025-11-21T09:35:29Z`t
+udemy-course-insights-privacy-policy`t`t1`tFalse`t2025-11-18T17:19:04Z`t
+kill-switch-extension-privacy-policy`t`t0`tFalse`t2025-11-18T16:08:21Z`t
+algorithms-in-python`tJupyter Notebook`t0`tFalse`t2025-11-13T22:48:56Z`t
+gamified-life`tTypeScript`t0`tFalse`t2025-07-25T23:01:26Z`t
+abrnoc`tTypeScript`t0`tFalse`t2025-07-13T01:51:50Z`tAbrnoc
+TON-Testnet-Transaction-App`tTypeScript`t0`tFalse`t2025-05-22T22:45:40Z`t
+react-list-virtualization-infinite-load`tTypeScript`t0`tFalse`t2024-10-07T23:21:12Z`t
+dtn--houtan`t`t0`tFalse`t2024-07-25T04:09:13Z`tDate Time Nation
+minimal-ui`tTypeScript`t0`tFalse`t2024-06-10T15:50:11Z`t
+dev-productivity`tDockerfile`t0`tFalse`t2024-04-27T21:58:08Z`t
+contributa`tTypeScript`t0`tFalse`t2024-04-22T05:45:07Z`t
+react-vite-highcharts`tJavaScript`t0`tFalse`t2024-04-13T11:34:33Z`tCreated with StackBlitz âš¡ï¸
+enterprise-ui-dev-my`tTypeScript`t0`tFalse`t2024-03-31T00:11:01Z`t
+houtan-ts-npm-package`tTypeScript`t0`tFalse`t2024-03-24T00:34:13Z`t
+parcel-rd`tJavaScript`t0`tFalse`t2024-03-23T05:50:36Z`t
+enforce-houtan-eslint-rule`tJavaScript`t0`tFalse`t2024-03-21T03:00:49Z`t
+chrome-extension-udemy-helper-vue`tVue`t0`tFalse`t2024-03-20T21:54:01Z`t
+nextjs-dashboard`tTypeScript`t0`tFalse`t2024-03-05T07:32:46Z`t
+DefinitelyTyped`t`t0`tTrue`t2024-02-15T23:43:22Z`tThe repository for high quality TypeScript type definitions.
+precognition`t`t0`tTrue`t2024-01-26T15:35:00Z`tAnticipate the outcome of a future HTTP request.
+THREE-Epic-Clan-Landing`tJavaScript`t0`tFalse`t2023-12-09T03:03:53Z`t
+aw-anti-pavle`t`t0`tTrue`t2023-11-28T13:21:03Z`t
+nvim.init`tLua`t0`tFalse`t2023-11-10T12:40:09Z`t
+Haunted-House`tJavaScript`t0`tFalse`t2023-11-08T21:35:41Z`t
+laravel-task-crud`tPHP`t0`tFalse`t2023-09-24T15:59:54Z`t
+python-phonecall`tPython`t0`tFalse`t2023-08-29T22:49:50Z`t
+html5-canvas`tHTML`t1`tFalse`t2023-07-26T23:10:54Z`t
+arvand-ali`tHTML`t0`tFalse`t2023-06-17T21:39:20Z`t
+roadmap-s`tCSS`t0`tFalse`t2023-06-17T09:44:58Z`t
+react-autocomplete`tTypeScript`t0`tFalse`t2023-05-16T17:46:50Z`t
+google-spreadsheet-control-script`tJavaScript`t0`tFalse`t2023-05-16T07:43:05Z`tControl spreadsheet re-writes for users
+smacss`t`t0`tFalse`t2023-05-14T16:53:40Z`tsmacss frontend masters
+vue-1001`tVue`t1`tFalse`t2023-05-10T07:38:35Z`t
+react-usePermission`tTypeScript`t1`tFalse`t2023-05-05T04:46:39Z`t
+filter-task`tJavaScript`t0`tTrue`t2023-05-04T17:03:44Z`t
+nodejs-1000`tTypeScript`t1`tFalse`t2023-05-03T08:33:16Z`t
+wp-next`tJavaScript`t1`tFalse`t2023-05-01T05:26:02Z`t
+React-Native-1000`tTypeScript`t2`tFalse`t2023-04-23T20:56:07Z`t
+react-query-infinite-scroll`tJavaScript`t3`tFalse`t2023-04-08T07:49:06Z`t
+algorithm-in-js`t`t1`tFalse`t2023-04-02T13:12:09Z`tBenchmarking some insertion sorts in js
+flowbite-react`t`t1`tTrue`t2023-01-28T17:45:50Z`tOfficial React components built for Flowbite and Tailwind CSS
+hootan-rocky`t`t1`tFalse`t2023-01-14T15:50:54Z`t
+github-users`tTypeScript`t1`tFalse`t2022-12-30T11:39:02Z`t
+react-container-vs-presentational`tTypeScript`t2`tFalse`t2022-12-29T18:01:17Z`tCreated with StackBlitz âš¡ï¸
+material-ui`t`t2`tTrue`t2022-12-24T06:43:22Z`tMUI Core: Ready-to-use foundational React components, free forever. It includes Material UI, which implements Google's Material Design.
+random`t`t1`tFalse`t2022-12-23T08:51:09Z`t
+mui-x`t`t1`tTrue`t2022-12-17T08:47:23Z`tMUI X: Advanced and powerful React components for complex use-cases.
+js-testing-practical-guide-code`t`t0`tTrue`t2022-09-19T12:20:13Z`tCourse code & materials for our "JavaScript Unit Testing - The Practical Guide" course (https://acad.link/testing)
+React-TS-Mobile-Shop`tTypeScript`t3`tFalse`t2022-09-04T19:35:10Z`tReact Ecommerce Shop Made Using Sass and Typescript.
+react-ecommerce-heroku-backend`tJavaScript`t1`tFalse`t2022-09-03T16:19:54Z`treact-ecommerce-heroku-backend
+React__Contact-List`tHTML`t1`tFalse`t2022-07-29T06:00:54Z`t
+phonebook`tJavaScript`t1`tFalse`t2022-07-01T16:46:45Z`t
+solid`tSCSS`t1`tFalse`t2022-06-30T05:46:53Z`t
+vanilla-pagination-search-CRUD`tSCSS`t1`tFalse`t2022-06-28T20:20:05Z`t
+hootan-rocky.github.io`tHTML`t2`tFalse`t2022-06-11T04:44:27Z`t
+hosting-template`tHTML`t1`tFalse`t2022-06-11T04:06:52Z`tHW9
+Hoshify`tHTML`t1`tFalse`t2022-06-11T03:53:28Z`t
+modern-html-css`tHTML`t1`tFalse`t2022-05-09T16:27:52Z`t
+en.javascript.info`t`t1`tTrue`t2022-05-08T10:36:22Z`tModern JavaScript Tutorial 
+You-Dont-Know-JS`t`t1`tTrue`t2022-05-07T18:39:35Z`tA book series on JavaScript. @YDKJS on twitter.
+test1122`t`t1`tFalse`t2022-04-07T12:34:46Z`t
+50projects50days`t`t1`tTrue`t2022-04-05T12:21:21Z`t50+ mini web projects using HTML, CSS & JS
+typescript-notebook`t`t1`tTrue`t2022-02-21T09:57:20Z`tRun JavaScript and TypeScript in node.js within VS Code notebooks with excellent support for debugging, tensorflowjs visulizations, plotly, danfojs, etc
+gpt-code-clippy`t`t2`tTrue`t2022-01-18T12:29:23Z`tFull description can be found here: https://discuss.huggingface.co/t/pretrain-gpt-neo-for-open-source-github-copilot-model/7678?u=ncoop57
+Udemy-Course-Creation-Date-Finder`t`t1`tTrue`t2021-11-25T03:51:36Z`t
+bootstrap-bootcamp-website`t`t1`tTrue`t2021-10-01T00:25:50Z`t
+maktab47-json-server-backend`t`t1`tTrue`t2021-07-14T02:38:14Z`t
+colonize`t`t1`tTrue`t2020-01-10T08:10:35Z`tVisual Studio Code extension 
+smartsemicolon-vscode`t`t1`tTrue`t2019-02-02T22:17:14Z`tVSCode Smart Semicolon Placement
+functionalJS`t`t1`tTrue`t2017-11-06T05:19:32Z`tExercises Part 2 for JS Fundamentals to Functional course on Frontend Masters.
+JavaScript-Design-Patterns`t`t0`tTrue`t2017-07-25T10:39:26Z`t

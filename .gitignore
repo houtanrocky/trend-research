@@ -1,0 +1,27 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Temp / scratch
+.tmp-*
+tmp/
+*.tmp
+.local/
+
+# Secrets
+.env
+.env.*
+!.env.example
